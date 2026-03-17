@@ -45,5 +45,5 @@ npm run dev
 
 ### progress
 
-part 1 - done , can chat with a llm that is hosted locally
+part 1 - done , can chat with a llm that is hosted locally <br>
 part 2 - not started
