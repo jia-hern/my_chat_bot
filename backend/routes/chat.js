@@ -1,6 +1,7 @@
 import express from "express";
 import fs from "fs-extra";
 
+import { callLLM } from "../services/llm.js";
 import { classifyIntent } from "../services/intentClassifier.js";
 import { answerFromKB } from "../services/knowledgeBase.js";
 import {
@@ -44,7 +45,7 @@ router.post("/", async (req, res) => {
     });
   }
 
-  const answer = answerFromKB(message);
+  const answer = await callLLM({ message, config });
   res.json({ reply: answer });
 });
 

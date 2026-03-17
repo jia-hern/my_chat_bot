@@ -24,3 +24,19 @@ example of reporting a bot issue:
 example of showing the list of reported issues:
 
 ![report issue with bot](./screenshots/mistakes_updated.png)
+
+## Running the project
+
+### LLM
+
+start ollama
+
+### Backend
+
+cd backend
+npm start
+
+### Frontend
+
+cd frontend
+npm run dev
