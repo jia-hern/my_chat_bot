@@ -1,0 +1,38 @@
+{
+  "knowledgeBaseUrl": "https://help.atome.ph/hc/en-gb/categories/4439682039065-Atome-Card",
+  "rules": [
+    "If user asks about application status → call application function",
+    "If transaction fails → ask for transaction id",
+    "If refund → ask for transaction id"
+  ],
+  "dynamicRules": [
+    {
+      "pattern": "this is a kb-based answer about atome card.",
+      "intent": "transaction_issue"
+    },
+    {
+      "pattern": "got some issue",
+      "intent": "kb_question"
+    },
+    {
+      "pattern": "there is some issue",
+      "intent": "kb_question"
+    },
+    {
+      "pattern": "ewrewr",
+      "intent": "kb_question"
+    },
+    {
+      "pattern": "sdfsdf",
+      "intent": "kb_question"
+    },
+    {
+      "pattern": "werwe",
+      "intent": "kb_question"
+    },
+    {
+      "pattern": "werwer",
+      "intent": "kb_question"
+    }
+  ]
+}

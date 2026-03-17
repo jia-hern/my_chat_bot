@@ -1,0 +1,9 @@
+[
+  {
+    "query": "there is some issue",
+    "botResponse": "This is a KB-based answer about Atome Card.",
+    "errorType": "wrong_intent",
+    "id": 1773731477481,
+    "resolved": true
+  }
+]

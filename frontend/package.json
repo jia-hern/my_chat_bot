@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "dependencies": {
+    "next": "14",
+    "react": "18",
+    "react-dom": "18",
+    "axios": "^1.6.0"
+  },
+  "scripts": {
+    "dev": "next dev"
+  }
+}
